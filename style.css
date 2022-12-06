@@ -1,6 +1,12 @@
 body{
     font: normal 15pt Arial;
     background-image: url(img/i3685.png);
+    background-position: center, center;
+}
+div{
+    border-radius: 10px;
+    margin: 5px;
+
 }
 .container {
     background-image: linear-gradient(to bottom, red,rgb(13, 10, 235));
@@ -10,6 +16,7 @@ body{
     text-align: center;
     color: aliceblue;
     box-sizing: border-box;
+    
 }
 
 .km{
@@ -23,7 +30,7 @@ body{
     border: solid 2px ;
     color: black;
     box-sizing: border-box;
-    
+   
 }
 .consumo{
     background: rgb(3, 143, 148);
