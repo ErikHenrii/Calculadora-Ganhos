@@ -2,10 +2,8 @@ body{
     font: normal 15pt Arial;
 }
 .container {
-    background: url(img/fundo.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 550px ;
+    background: rgb(3, 0, 0);
+    width: 550px;
     height: auto;
     margin: auto;
     text-align: center;
