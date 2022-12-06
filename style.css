@@ -1,0 +1,63 @@
+body{
+    font: normal 15pt Arial;
+}
+.container {
+    background: rgb(3, 0, 0);
+    width: 550px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    color: aliceblue;
+}
+
+.km{
+    background: rgb(3, 143, 148);
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+    border: solid 2px ;
+    color: black;
+    
+}
+.consumo{
+    background: rgb(3, 143, 148);
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+    border: solid 2px ;
+    color: black;
+
+}
+.combustivel{
+    background: rgb(3, 143, 148);
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+    border: solid 2px ;
+    color: black;
+}
+.ganhos{
+    background: rgb(3, 143, 148);
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+    border: solid 2px ;
+    color: black;
+}
+.somar{
+    padding: 20px;
+    text-align: center;
+    color: black;
+}

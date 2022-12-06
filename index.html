@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Ganhos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1> Calculos de Ganhos Reais </h1>
+        <div class="km">
+            <p>Insira o Km rodado!</p>
+            <input type="number" name="txtn1" id="txtn1"> 
+        </div>
+        <div class="consumo">
+            <p>Insira o consumo KM/L</p>
+            <input type="number" name="txtn2" id="txtn2">
+        </div>
+        <div class="combustivel">
+            <p>Insira o preço do combustivel</p>
+            <input type="number" name="txtn3" id="txtn3">
+        </div>
+        <div class="ganhos">
+            <p>Insira seus ganhos do dia</p>
+            <input type="number" name="txtn4" id="txtn4">
+        </div>
+        <div class="somar"> <input type="button" value="Somar" onclick="somar()"></div>
+       
+        <div id="res"></div>
+    </div>
+    
+    
+    
+    
+   
+    <script>
+        function somar() {
+            var tn1 = document.getElementById('txtn1')
+            var tn2 = document.getElementById('txtn2')
+            var tn3 = document.getElementById('txtn3')
+            var tn4 = document.getElementById('txtn4')
+            var res = document.getElementById('res')
+            var n1 = Number(tn1.value)
+            var n2 = Number(tn2.value)
+            var n3 = Number (tn3.value)
+            var n4 = Number(tn4.value)
+            var s1 = n1 / n2 * n3
+            var s2 = n4 - s1
+            res.innerHTML = (`Seu Ganho Liquido do dia é de $${s2.toFixed(2)} Reais`)
+            res.style.background='green'
+            
+
+
+        }
+    </script>
+    
+    
+</body>
+</html>
