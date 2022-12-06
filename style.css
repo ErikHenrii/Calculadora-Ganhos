@@ -1,8 +1,9 @@
 body{
     font: normal 15pt Arial;
+    background-image: url(img/i3685.png);
 }
 .container {
-    background: rgb(3, 0, 0);
+    background-image: linear-gradient(to bottom, red,rgb(13, 10, 235));
     width: 550px;
     height: auto;
     margin: auto;
@@ -49,7 +50,19 @@ body{
     color: black;
     box-sizing: border-box;
 }
-.ganhos{
+.ganhos1{
+    background: rgb(3, 143, 148);
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+    border: solid 2px ;
+    color: black;
+    box-sizing: border-box;
+}
+.ganhos2{
     background: rgb(3, 143, 148);
     width: 250px;
     display: block;
