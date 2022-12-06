@@ -8,6 +8,7 @@ body{
     margin: auto;
     text-align: center;
     color: aliceblue;
+    box-sizing: border-box;
 }
 
 .km{
@@ -20,6 +21,7 @@ body{
     text-align: center;
     border: solid 2px ;
     color: black;
+    box-sizing: border-box;
     
 }
 .consumo{
@@ -32,6 +34,7 @@ body{
     text-align: center;
     border: solid 2px ;
     color: black;
+    box-sizing: border-box;
 
 }
 .combustivel{
@@ -44,6 +47,7 @@ body{
     text-align: center;
     border: solid 2px ;
     color: black;
+    box-sizing: border-box;
 }
 .ganhos{
     background: rgb(3, 143, 148);
@@ -55,9 +59,15 @@ body{
     text-align: center;
     border: solid 2px ;
     color: black;
+    box-sizing: border-box;
 }
 .somar{
     padding: 20px;
     text-align: center;
     color: black;
+}
+input{
+    font-size: 20px;
+    width: 200px ;
+    box-sizing: border-box;
 }
